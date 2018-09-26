@@ -525,6 +525,7 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
+    chargeonlymode \
     vendor.qti.gnss@3.0-service
 
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
