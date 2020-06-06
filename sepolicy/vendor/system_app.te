@@ -22,3 +22,6 @@ allow system_app sysfs:file { open read write getattr };
 allow system_app sysfs_msm_perf:dir { search };
 allow system_app app_data_file:dir { search open };
 allow system_app app_data_file:file open;
+allow system_app sysfs_battery_supply:dir search;
+allow system_app sysfs_battery_supply:file rw_file_perms;
+
