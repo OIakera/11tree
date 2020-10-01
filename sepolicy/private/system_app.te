@@ -1,3 +1,4 @@
 hal_client_domain(system_app, hal_mlipay)
 binder_call(system_app, storaged)
-get_prop(system_app, persist_camera_prop);
+get_prop(system_app, vendor_persist_camera_prop)
+
