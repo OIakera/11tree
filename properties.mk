@@ -159,6 +159,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sdm.support_writeback=0 \
+    ro.surface_flinger.supports_background_blur=1 \
     ro.opengles.version=196610 \
     ro.vendor.display.cabl=0 \
     vendor.display.disable_skip_validate=1 \
