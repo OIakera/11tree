@@ -421,6 +421,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk-ext
 
+# Wallet
+PRODUCT_PACKAGES += \
+    QuickAccessWallet
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
