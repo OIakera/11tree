@@ -100,7 +100,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl:32 \
-    audio.bluetooth.default
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default \
+    vendor.qti.hardware.btconfigstore@1.0 
 
 PRODUCT_PACKAGES += \
     libhdmiedid \
