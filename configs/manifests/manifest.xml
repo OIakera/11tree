@@ -571,6 +571,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>ITuiComm</name>
             <instance>default</instance>
         </interface>
+       <fqname>@1.0::ITuiComm/default</fqname>
     </hal>
     <!--  Soter service -->
     <hal format="hidl">
