@@ -162,12 +162,18 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=1 \
     debug.sdm.support_writeback=0 \
     ro.surface_flinger.supports_background_blur=1 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.sf.blurs_are_expensive=1 \
     ro.opengles.version=196610 \
     ro.vendor.display.cabl=0 \
     vendor.display.disable_skip_validate=1 \
     vendor.display.enable_default_color_mode=0 \
     vendor.gralloc.enable_fb_ubwc=1
+
+    # Graphics
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.hardware.egl=adreno \
+ro.hardware.vulkan=adreno
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
