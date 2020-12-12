@@ -102,8 +102,11 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl:32 \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
+    libbthost_if \
+    libldacBT_dec \
     vendor.qti.hardware.btconfigstore@1.0 
 
+   
 PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
