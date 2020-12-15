@@ -17,6 +17,7 @@ allow system_server sysfs_livedisplay_tuneable:file {open getattr read write };
 
 #Smart charger
 allow system_server sysfs_battery_supply:file rw_file_perms;
+allow system_server sysfs_battery_supply:file { getattr open read write };
 allow system_server sysfs_vibrator:file rw_file_perms;
 allow system_server vendor_default_prop:file { getattr open read };
 
