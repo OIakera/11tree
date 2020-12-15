@@ -134,6 +134,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.s5k3l8_ofilm.low.lux=379 \
     persist.vendor.s5k3l8_ofilm.light.lux=367 \
     persist.vendor.camera.HAL3.enabled=1 \
+    persist.vendor.camera.enableAdvanceFeatures=0x347 \
+    persist.camera.max.previewfps=60 \
+    persist.vendor.camera.max.previewfps=60 \
     persist.vendor.camera.ltm.overlap=13
 
     PRODUCT_PROPERTY_OVERRIDES += \
