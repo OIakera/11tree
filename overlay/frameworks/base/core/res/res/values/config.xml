@@ -272,6 +272,16 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
+    <bool name="config_displayBlanksAfterDoze">true</bool>
+
+    <!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">false</bool>
+
     <!-- The name of the package that will hold the dialer role by default. -->
     <!-- <string name="config_defaultDialer" translatable="false">org.codeaurora.dialer</string> -->
 
