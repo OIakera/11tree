@@ -38,6 +38,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR_PRODUCT_NAME := whyred
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="whyred-user 9 PKQ1.180904.001 20.4.27 release-keys"
+     PRODUCT_NAME="whyred" \
+     TARGET_DEVICE="whyred" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.201205.011 6966805 release-keys"
 
-BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
