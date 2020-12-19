@@ -267,3 +267,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Maintainer's Overlay
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.corvus.maintainer=Zeeshan
+
+
