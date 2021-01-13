@@ -8,6 +8,8 @@ get_prop(hal_camera_default, vendor_video_prop)
 allow hal_camera_default vendor_video_prop:file { read open getattr };
 allow hal_camera_default sysfs:file { read open getattr };
 allow hal_camera_default media_rw_data_file:file { getattr };
+allow hal_camera_default default_prop:file { read };
+allow hal_camera_default default_prop:file { open };
 
 
 
