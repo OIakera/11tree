@@ -13,7 +13,7 @@ allow system_server sysfs_rtc:file r_file_perms;
 allow system_server fpnav_hwservice:hwservice_manager { add find };
 allow system_server sysfs_vibrator:file read;
 allow system_server vendor_default_prop:file { getattr open read };
-allow system_server sysfs_livedisplay_tuneable:file { read write };
+allow system_server sysfs_livedisplay_tuneable:file {open getattr read write };
 
 #Smart charger
 allow system_server sysfs_battery_supply:file rw_file_perms;
