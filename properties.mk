@@ -75,7 +75,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.vbat.enable=true \
     vendor.audio.feature.wsa.enable=false \
     vendor.audio.feature.audiozoom.enable=false \
-    vendor.audio.feature.snd_mon.enable=true
+    vendor.audio.feature.snd_mon.enable=true \
+    persist.dirac.acs.controller=qem \
+    persist.dirac.acs.ignore_error=1 \
+    persist.dirac.acs.storeSettings=1 \
+    ro.audio.soundfx.dirac=true 
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=25 \
