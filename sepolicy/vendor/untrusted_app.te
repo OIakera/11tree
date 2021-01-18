@@ -42,4 +42,12 @@ allow untrusted_app_29 proc:file { open };
 allow untrusted_app_29 input_device:dir { search };
 allow untrusted_app_29 sysfs_net:dir { search };
 allow untrusted_app_25 rootfs:dir { read };
-
+allow untrusted_app theme_prop:file { read };
+allow untrusted_app sysfs_kgsl:dir { search };
+allow untrusted_app_29 sysfs_kgsl:dir { search };
+allow untrusted_app_29 app_data_file:dir { search };
+allow untrusted_app_29 app_data_file:dir { getattr };
+allow untrusted_app_29 unlabeled:file { getattr };
+allow untrusted_app_29 block_device:dir { search };
+allow untrusted_app system_data_file:file { write };
+allow untrusted_app system_data_file:file { open };
