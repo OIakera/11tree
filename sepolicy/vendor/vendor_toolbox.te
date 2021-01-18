@@ -18,6 +18,7 @@ allow vendor_toolbox persist_bluetooth_file:file { getattr };
 allow vendor_toolbox persist_display_file:file { getattr };
 allow vendor_toolbox vendor_persist_mmi_file:file { getattr };
 allow vendor_toolbox persist_rfs_file:file { getattr };
+allow vendor_toolbox regionalization_file:file { getattr };
 
 # Allow vendor_toolbox to remove "security.*" xattrs from /mnt/vendor/persist
 allow vendor_toolbox {
