@@ -39,4 +39,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- If using proximity_sensor_type, specifies a threshold value to distinguish near and
          far break points.-->
     <item name="proximity_sensor_threshold" translatable="false" format="float" type="dimen">1</item>
+
+     <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
 </resources>
