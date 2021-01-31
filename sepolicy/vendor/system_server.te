@@ -20,3 +20,7 @@ allow system_server sysfs_battery_supply:file rw_file_perms;
 allow system_server sysfs_vibrator:file rw_file_perms;
 allow system_server vendor_default_prop:file { getattr open read };
 
+# Allow system_server to set vendor_persist_camera_prop
+get_prop(system_server, vendor_camera_prop)
+get_prop(system_server,vendor_persist_camera_prop)
+

@@ -18,3 +18,8 @@ allow init proc:file setattr;
 
 set_prop(vendor_init, freq_prop)
 set_prop(vendor_init, camera_prop)
+
+# Allow vendor_init to set vendor_persist_camera_prop
+set_prop(vendor_init, vendor_camera_prop)
+set_prop(vendor_init, vendor_persist_camera_prop)
+
