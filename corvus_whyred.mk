@@ -40,6 +40,7 @@ TARGET_VENDOR_PRODUCT_NAME := whyred
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME="whyred" \
      TARGET_DEVICE="whyred" \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.201205.011 6966805 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210205.004 7038034 release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys"
+
