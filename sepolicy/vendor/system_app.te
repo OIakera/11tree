@@ -25,4 +25,6 @@ allow system_app app_data_file:file open;
 allow system_app sysfs_battery_supply:dir search;
 allow system_app sysfs_battery_supply:file rw_file_perms;
 allow system_app default_android_service:service_manager { add find };
+# Fastcharge
+allow system_app sysfs_fcharge:file { open read getattr write };
 
