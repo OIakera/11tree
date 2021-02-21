@@ -14,6 +14,8 @@ type sysfs_touchboost, sysfs_type, fs_type;
 type sysfs_fps, sysfs_type, fs_type;
 type proc_dt2w, fs_type, proc_type;
 type proc_sysctl_sched_energy_aware, proc_type, fs_type;
+# USB Fastcharge
+type sysfs_usbcharge, sysfs_type, fs_type;
 # Fastcharge
 type sysfs_fcharge, sysfs_type, fs_type;
 

@@ -7,6 +7,8 @@ allow init sysfs_type:file { setattr };
 allow init socket_device:sock_file { unlink setattr create };
 allow init su:process { noatsecure  rlimitinh  siginh  transition };
 allow init vendor_file:file { execute };
+# USB Fastcharge
+allow init sysfs_usbcharge:file { write open };
 # Fastcharge
 allow init sysfs_fcharge:file { write open };
 
