@@ -11,3 +11,5 @@ git clone https://github.com/LineageOS/android_hardware_qcom_audio.git -b lineag
 git clone https://github.com/LineageOS/android_hardware_qcom_media.git -b lineage-18.1-caf-msm8998 hardware/qcom-caf/msm8998/media
 
 
+lunch lighthouse_whyred-userdebug
+lunch lighthouse_whyred-eng
