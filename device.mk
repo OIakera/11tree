@@ -32,6 +32,10 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-4096-dalvi
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
+#Google unlimited photos backup
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/pixel_ul_photos.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pixel_ul_photos.xml
+
 # AuthSecret 
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0-service
