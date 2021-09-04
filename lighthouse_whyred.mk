@@ -24,7 +24,7 @@ TARGET_VENDOR_PRODUCT_NAME := whyred
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME="whyred" \
      TARGET_DEVICE="whyred" \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
+    PRIVATE_BUILD_DESC="whyred-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEIMIFA release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
+BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
