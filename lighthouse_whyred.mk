@@ -4,8 +4,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common lighthouse stuff
-$(call inherit-product, vendor/lighthouse/config/common.mk)
+$(call inherit-product, vendor/lighthouse/config/common_full_phone.mk)
 LIGHTHOUSE_BUILD_TYPE := OFFICIAL
+LIGHTHOUSE_BUILD_MAINTAINER := Drkstar0145
 
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
