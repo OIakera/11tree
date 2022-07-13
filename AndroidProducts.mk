@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_whyred.mk
+    $(LOCAL_DIR)/krypton_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_whyred-user \
-    corvus_whyred-userdebug \
-    corvus_whyred-eng
+    krypton_whyred-user \
+    krypton_whyred-userdebug \
+    krypton_whyred-eng
